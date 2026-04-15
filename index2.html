@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leve Ninar — LunarBaby</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+    <!-- Cursor personalizado -->
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-trail" id="cursorTrail"></div>
+
+    <!-- Partículas flutuantes -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="header-inner">
+            <div class="logo-wrap">
+                <img src="imgs/Logo.jpeg" alt="Leve Ninar" class="logo">
+            </div>
+            <h1 class="brand-name">Leve Ninar</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home" data-text="Home">Home</a></li>
+                    <li><a href="#about" data-text="Sobre">Sobre</a></li>
+                    <li><a href="#products" data-text="Produto">Produto</a></li>
+                    <li><a href="#ods" data-text="ODS">ODS</a></li>
+                    <li><a href="#contact" data-text="Contato">Contato</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Nav Overlay -->
+    <div class="mobile-nav" id="mobileNav">
+        <ul>
+            <li><a href="#home" class="mob-link">Home</a></li>
+            <li><a href="#about" class="mob-link">Sobre</a></li>
+            <li><a href="#products" class="mob-link">Produto</a></li>
+            <li><a href="#ods" class="mob-link">ODS</a></li>
+            <li><a href="#contact" class="mob-link">Contato</a></li>
+        </ul>
+    </div>
+
+    <main>
+
+        <!-- ── HERO ── -->
+        <section id="home" class="hero">
+            <div class="hero-bg-shape shape-1"></div>
+            <div class="hero-bg-shape shape-2"></div>
+            <div class="hero-bg-shape shape-3"></div>
+
+            <div class="hero-content">
+                <span class="hero-tag reveal">Tecnologia para quem mais importa</span>
+                <h2 class="hero-title reveal">
+                    Noites <em>tranquilas,</em><br>
+                    dias <em>felizes</em>
+                </h2>
+                <p class="hero-sub reveal">
+                    Cuidamos do sono do seu bebê com inteligência, carinho e inovação.
+                    Porque pais descansados criam filhos mais felizes.
+                </p>
+                <div class="hero-ctas reveal">
+                    <a href="#products" class="btn-primary">
+                        <span>Conheça o LunarBaby</span>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M8 3l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </a>
+                    <a href="#about" class="btn-ghost">Nossa história</a>
+                </div>
+
+                <!-- Stats flutuantes -->
+                <div class="hero-stats reveal">
+                    <div class="stat">
+                        <span class="stat-num" data-target="98">0</span><span>%</span>
+                        <small>Satisfação</small>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat">
+                        <span class="stat-num" data-target="3">0</span><span>+</span>
+                        <small>ODS apoiadas</small>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat">
+                        <span class="stat-num" data-target="24">0</span><span>h</span>
+                        <small>Monitoramento</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-visual reveal">
+                <div class="product-glow"></div>
+                <img src="imgs/projeto.jpeg" alt="LunarBaby dispositivo" class="hero-product-img">
+                <div class="floating-badge badge-1">
+                    <span class="badge-icon">🌙</span>
+                    <span>Modo Noite</span>
+                </div>
+                <div class="floating-badge badge-2">
+                    <span class="badge-icon">📡</span>
+                    <span>Sem fio</span>
+                </div>
+                <div class="floating-badge badge-3">
+                    <span class="badge-icon">🔔</span>
+                    <span>Alertas Smart</span>
+                </div>
+            </div>
+
+            <div class="scroll-hint">
+                <span>Role para descobrir</span>
+                <div class="scroll-line"></div>
+            </div>
+        </section>
+
+        <!-- ── ABOUT ── -->
+        <section id="about" class="about">
+            <div class="about-inner">
+                <div class="about-text">
+                    <span class="section-label reveal">Nossa Missão</span>
+                    <h2 class="reveal">
+                        Tecnologia que <em>abraça</em><br>quem você mais ama
+                    </h2>
+                    <p class="reveal">
+                        A <strong>Leve Ninar</strong> nasceu da inquietação de pais que queriam mais:
+                        mais segurança, mais tranquilidade, mais presença — mesmo à distância.
+                        Desenvolvemos soluções que unem tecnologia de ponta ao cuidado genuíno,
+                        porque acreditamos que inovar é, acima de tudo, um ato de amor.
+                    </p>
+                    <div class="pillar-grid reveal">
+                        <div class="pillar-card">
+                            <div class="pillar-icon">🛡️</div>
+                            <h4>Segurança</h4>
+                            <p>Protocolos certificados e criptografia de ponta a ponta.</p>
+                        </div>
+                        <div class="pillar-card">
+                            <div class="pillar-icon">💡</div>
+                            <h4>Inovação</h4>
+                            <p>IA que aprende com o ritmo único do seu bebê.</p>
+                        </div>
+                        <div class="pillar-card">
+                            <div class="pillar-icon">🌿</div>
+                            <h4>Sustentabilidade</h4>
+                            <p>Materiais responsáveis e produção consciente.</p>
+                        </div>
+                        <div class="pillar-card">
+                            <div class="pillar-icon">❤️</div>
+                            <h4>Cuidado</h4>
+                            <p>Suporte humanizado e comunidade de pais.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual reveal">
+                    <div class="about-deco-circle c1"></div>
+                    <div class="about-deco-circle c2"></div>
+                    <div class="about-quote">
+                        <span class="quote-mark">"</span>
+                        <p>Cada família merece dormir em paz.</p>
+                        <cite>— Equipe Leve Ninar</cite>
+                    </div>
+                    <div class="founders-tag">
+                        <div class="founders-avatars">
+                            <div class="avatar av1">F</div>
+                            <div class="avatar av2">L</div>
+                            <div class="avatar av3">I</div>
+                            <div class="avatar av4">L</div>
+                            <div class="avatar av5">L</div>
+                        </div>
+                        <span>5 fundadores apaixonados</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ── PRODUCT ── -->
+        <section id="products" class="products">
+            <div class="products-header">
+                <span class="section-label centered reveal">Nosso produto</span>
+                <h2 class="centered reveal">Conheça o <em>LunarBaby</em></h2>
+                <p class="products-subtitle reveal">
+                    A babá eletrônica mais inteligente do Brasil.
+                </p>
+            </div>
+
+            <div class="product-showcase reveal">
+                <div class="product-img-wrap">
+                    <div class="product-badge">Novo ✦ 2026</div>
+                    <img src="imgs/projeto.jpeg" alt="LunarBaby" class="product-image">
+                    <div class="product-img-overlay"></div>
+                </div>
+
+                <div class="product-info">
+                    <h3>LunarBaby</h3>
+                    <p class="product-tagline">Inteligência artificial a serviço do sono</p>
+
+                    <p>O primeiro dispositivo brasileiro que combina monitoramento de sono
+                       em tempo real, detecção de movimento por IA e comunicação bidirecional
+                       com cristalina qualidade de áudio e vídeo HD.</p>
+
+                    <div class="features-list">
+                        <div class="feature-item">
+                            <div class="feature-dot"></div>
+                            <span>Monitoramento de sono com IA</span>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-dot"></div>
+                            <span>Vídeo HD 1080p noturno</span>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-dot"></div>
+                            <span>Detecção de choro e movimento</span>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-dot"></div>
+                            <span>Temperatura e umidade do ambiente</span>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-dot"></div>
+                            <span>Comunicação bidirecional</span>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-dot"></div>
+                            <span>App iOS e Android</span>
+                        </div>
+                    </div>
+
+                    <div class="product-ctas">
+                        <a href="#contact" class="btn-primary">
+                            <span>Quero saber mais</span>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M8 3l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ── ODS ── -->
+        <section id="ods" class="ods-section">
+            <div class="ods-inner">
+                <span class="section-label centered reveal">✦ Compromisso global</span>
+                <h2 class="centered reveal">
+                    Construindo um futuro <em>sustentável</em>
+                </h2>
+                <p class="ods-subtitle reveal">
+                    Nossa inovação vai além do produto. A Leve Ninar atua ativamente em prol
+                    dos Objetivos de Desenvolvimento Sustentável da ONU.
+                </p>
+
+                <div class="ods-cards reveal">
+                    <div class="ods-card">
+                        <div class="ods-img-wrap green">
+                            <img src="imgs/ods3.jpg" alt="ODS 3 — Saúde e Bem-Estar">
+                        </div>
+                        <div class="ods-card-body">
+                            <h4>ODS 3</h4>
+                            <h3>Saúde e Bem-Estar</h3>
+                            <p>Promovemos o bem-estar de bebês e famílias através de tecnologia que garante
+                               um sono seguro e saudável desde os primeiros dias de vida.</p>
+                        </div>
+                    </div>
+
+                    <div class="ods-card featured">
+                        <div class="ods-img-wrap orange">
+                            <img src="imgs/ods9.webp" alt="ODS 9 — Indústria, Inovação e Infraestrutura">
+                        </div>
+                        <div class="ods-card-body">
+                            <h4>ODS 9</h4>
+                            <h3>Indústria & Inovação</h3>
+                            <p>Somos uma empresa 100% brasileira que aposta em P&D nacional para
+                               criar infraestrutura tecnológica acessível e de excelência.</p>
+                        </div>
+                    </div>
+
+                    <div class="ods-card">
+                        <div class="ods-img-wrap gold">
+                            <img src="imgs/ods12.png" alt="ODS 12 — Consumo e Produção Responsáveis">
+                        </div>
+                        <div class="ods-card-body">
+                            <h4>ODS 12</h4>
+                            <h3>Consumo Responsável</h3>
+                            <p>Usamos materiais certificados, embalagens biodegradáveis e
+                               uma cadeia de produção transparente e ética.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ── FOOTER / CONTACT ── -->
+    <footer id="contact">
+        <div class="footer-inner">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <img src="imgs/Logo.jpeg" alt="Leve Ninar" class="footer-logo">
+                    <div>
+                        <h2>Leve Ninar</h2>
+                        <p>Tecnologia para o sono que transforma vidas.</p>
+                    </div>
+                </div>
+                <div class="footer-contact-info">
+                    <h3>Fale conosco</h3>
+                    <a href="mailto:contato@leveninar.com" class="footer-email">
+                        ✉ contato@leveninar.com
+                    </a>
+                    <p class="footer-founders">
+                        <strong>Fundadores:</strong><br>
+                        Felipe K. Marques · Luan Nicolas · Isabelle da Costa<br>
+                        Larissa Almeida · Letícia Gabriela
+                    </p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Leve Ninar. Todos os direitos reservados.</p>
+                <p>Feito com ❤️ no Brasil</p>
+            </div>
+        </div>
+        <!-- Decoração footer -->
+        <div class="footer-deco">🌙</div>
+    </footer>
+
+    <!-- Toast de boas-vindas -->
+    <div class="toast" id="welcomeToast">
+        <span class="toast-icon">🌙</span>
+        <span>Bem-vindo à Leve Ninar!</span>
+    </div>
+
+    <script src="script2.js"></script>
+</body>
+</html>
